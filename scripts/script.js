@@ -61,5 +61,3 @@ console.log ('User: '+pS);
 let dS = computerSelection();
 console.log('Computer: '+dS);
 let result = game();
-
-//por que se declararon las variables despues de los if/switch?
