@@ -1,0 +1,165 @@
+/* Common style */
+body{
+    margin: 0px;
+    font-family: 'Markazi Text', serif;
+    background-color: black;
+    cursor: default;
+}
+/* .bg-image{
+    background-image: url(../images/8d140829dc9e9ece410e84419c73453e_original.png);
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);} */
+/* Title style */
+.title{
+    color: lightgray;
+    font-size: 30px;
+    background-color: rgba(153, 0, 255, 0.281); /* Black w/opacity/see-through */
+    color: #a0a0a0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    z-index: 2;
+    width: 40%;
+    padding: 0px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: default;
+    }
+.title button{
+    background-color: rgb(47, 0, 90);
+    border-radius: 1px;
+    color: rgb(0, 255, 21);
+    border: 5px solid black;
+    padding: 10px 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+    
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+/* buttons and icons */
+.middle{
+    display:flex;
+    color:rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 180px;
+    font-size: 60px;
+    font-family: 'Mukta', sans-serif;
+}
+.middle button{
+    background-color: rgb(47, 0, 90);
+    border-radius: 4px;
+    color: rgb(0, 255, 21);
+    border: none;
+    padding: 20px 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.middle > .left{
+    display: flex;
+    align-items: center;
+}
+.middle  i{
+    margin-right: 15px;
+    background-color: rgba(153, 0, 255, 0.281);
+    border-radius: 100%;
+    padding: 30px;
+    cursor: pointer;
+}
+.middle > .left > .rockicon{
+    font-size: 1em;
+    color:rgb(0, 255, 21);
+    padding-top: 25px;
+}
+.middle > .center{
+    display: flex;
+    align-items: center;
+}
+.middle > .center i{
+    margin-right: 15px;
+}
+.middle > .center > .papericon{
+    font-size: 1em;
+    color:rgb(0, 255, 21);
+    padding-top: 25px;
+}
+
+.middle > .right{
+    display: flex;
+    align-items: center;
+}
+.middle > .right i{
+    margin-right: 15px;
+}
+.middle > .right > .scissorsicon{
+    font-size: 1em;
+    color:rgb(0, 255, 21);
+    padding-top: 25px;
+}
+/* Scores and games */
+.scores{
+    display: flex;
+    justify-content: center;
+    padding: 0% 50%;
+    margin-top: -35px;
+    align-items: center;
+}
+.scores h2{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+.scores h1{
+    color: rgb(0, 255, 21);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    margin-top: -70px;
+}
+
+.games-played{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-played h2{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.games-played h1{
+    color: rgb(0, 255, 21);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    /* margin-top: -70px; */
+}
+
+div.fadeOut{
+    opacity: 0;
+    pointer-events: none;
+}
+div.fadeIn{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+    /* font-family: 'Mukta', sans-serif;
+
+    font-family: 'Markazi Text', serif; */

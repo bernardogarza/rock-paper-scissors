@@ -4,15 +4,70 @@
     <head>
         <title>Rock Paper Scissors</title>
         <meta charset=utf-8>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script type="text/javascript" src="scripts/script.js"></script>
+
+        <link rel="stylesheet" href="styles/style.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Markazi+Text|Mukta" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Rock, Paper, Scissors on the console</h1>
+        <div class="bg-image"></div>
+        <div class="top">
+            <div class="title">
+                <h1>Rock, Paper, Scissors?</h1>
+                <button>Lets Play!</button>
+            </div>
+        </div>
 
-        <script src="scripts/script.js">            
+        <div class="middle">
+            
+            <div class="left">
+                    <div class="rockicon">
+                        <i class="far fa-hand-rock"></i>
+                    </div>
+                <div class="rockbutton">
+                    <button>Rock</button>
+                </div>
+            </div>
 
-        </script>
+            <div class="center">
+                <div class="papericon">
+                    <i class="far fa-hand-paper"></i>
+                </div>
+                <div class="paperbutton">
+                    <button>Paper</button>
+                </div>
+            </div>
 
+            <div class="right">
+                <div class="scissorsicon">
+                    <i class="far fa-hand-scissors"></i>
+                </div>
+                <div class="scissorsbutton">
+                    <button>Scissors</button>  
+                </div>
+            </div>
+
+        </div>
+        <section class="scores">
+                <div class="player-score">
+                    <h2>Player</h2>
+                    <h1>0</h1>
+                </div>
+                <div class="computer-score">
+                    <h2>Computer</h2>
+                    <h1>0</h1>
+                </div>
+            </section>
+            <section class=games-played>
+                    <h2>Games Played:</h2>
+                    <h1>0</h1>
+            </section>
+        <!-- <div class="bg-image"></div> -->
     </body>
 
 </html>
